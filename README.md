@@ -6,7 +6,7 @@ To run
 ```
 git clone https://github.com/benzothegrayhat/KitsunePhisher
 cd KitsunePhisher
-cargo build
+cargo build --release
 cp target/release/kitsune_phish /usr/local/bin/kitsune
 cp -r .sites /usr/local/bin
 ```
