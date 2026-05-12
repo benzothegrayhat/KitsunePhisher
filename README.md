@@ -7,6 +7,6 @@ To run
 git clone https://github.com/benzothegrayhat/KitsunePhisher
 cd KitsunePhisher
 cargo build --release
-cp target/release/kitsune_phish /usr/local/bin/kitsune
-cp -r .sites /usr/local/bin
+sudo cp target/release/kitsune_phish /usr/local/bin/kitsune
+sudo cp -r .sites /usr/local/bin
 ```
